@@ -1,9 +1,9 @@
 name: Мой первый пайплайн
-on:
+on: [push]
 
 jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
-      -name: Сказать привет
-       run: echo "Привет! Пайплайн работает!"
+      - name: Сказать привет
+        run: echo "Привет! пайплайн работает!"
