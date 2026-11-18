@@ -1,5 +1,5 @@
 name: Сборка и отправка Docker-образа
-on: 
+on:
   push:
     branches: ["main"]
 
