@@ -10,7 +10,7 @@ jobs:
       - name: Клонировать репозиторий
       uses: action/checkout@v4
 
-      -name: Войти в Docker Hub
+      - name: Войти в Docker Hub
       uses: docker/login-action@v3
       with: 
         username: ${{secrets.DOCKER_USERNAME}}
